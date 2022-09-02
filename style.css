@@ -8,3 +8,6 @@ margin-right: -12px;
 #manager,#coach{
     border: 2px solid blue;
 }
+#clc{
+    outline: none;
+}
