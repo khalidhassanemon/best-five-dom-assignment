@@ -5,3 +5,6 @@ margin-right: -12px;
 #total-expense{
     outline: none;
 }
+#manager,#coach{
+    border: 2px solid blue;
+}

@@ -57,3 +57,22 @@ const total=document.getElementById('calculates').addEventListener('click',funct
     const p=document.getElementById('total-expense');
     p.value=totalExpenses;
 })
+
+document.getElementById('total-clc').addEventListener('click',function(){
+    const managercost=document.getElementById('manager');
+    const managercostString=managercost.value;
+    const managerInt=parseInt(managercostString);
+
+    const coachCost=document.getElementById('coach');
+    const coachCostString=coachCost.value;
+    const coachInt=parseInt(coachCostString);
+
+    const totalCost=managerInt+coachInt;
+   const x=document.getElementById('total-expense');
+   const yString=x.value;
+   const yInt=parseInt(yString);
+    const calculateTotal=totalCost+yInt;
+    console.log(calculateTotal);
+     const z=document.getElementById('clc');
+     z.value=calculateTotal;
+})

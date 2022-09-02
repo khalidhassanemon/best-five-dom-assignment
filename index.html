@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a84d1e5cca.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Select-Best-Five</title>
 </head>
@@ -116,7 +117,7 @@
             <div class="card-body">
              <h1 id="best-five" class="font-bold text-white text-center text-xl font-serif">Selected-V</h1>
               <ul id="list-ul">
-
+               
               </ul>
             </div>
           </div>
@@ -128,7 +129,15 @@
               <label class="text-white mb-2">Per-Player:</label>
               <input id="nmbr" type="text" class="mb-4 px-2 py-1 text-white bg-zinc-900" placeholder="Enter budget">
               <button id="calculates" class="px-20 py-2 bg-primary text-gray-50 font-medium">Calculate</button>
-              <h1 class="text-white my-4">Player Expenses <input id="total-expense" type="text" class="mb-4 px-2 py-1 text-white bg-zinc-900 mt-3"></h1>
+              <h1 class="text-white my-4">Player Expenses<input id="total-expense" type="text" class="mb-4 px-2 py-1 text-white bg-zinc-900 mt-3"></h1>
+
+              <h1 class="text-white my-3">Manager<input id="manager" type="text" class="mb-4 px-2 py-1 text-white bg-zinc-900 mt-2"></h1>
+
+              <h1 class="text-white my-3">Coach<input id="coach" type="text" class="mb-4 px-2 py-1 text-white bg-zinc-900 mt-2"></h1>
+              <button id="total-clc" class="px-10 py-2 bg-primary text-gray-50 font-medium">Calculate Total</button><br>
+              <label id="last" class="text-white mb-2 mt-2">Total</label>
+              <input id="clc" type="text" class="mb-4 px-2 py-1 text-white bg-zinc-900" >
+    
             </div>
           </div>
         </div>
